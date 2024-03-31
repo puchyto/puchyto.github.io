@@ -5,11 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+:root{
+    color-scheme: light dark;
+}
 body{
     font-family: "Nanum Pen Script", cursive;
-    background-color: rgb(255, 205, 148);
+    background-color: light-dark(rgb(255, 205, 148), rgb(90, 39, 39));
+    color: light-dark(rgb(206, 57, 52), black);
 }
+/*@media (prefers-color-scheme: dark){
+    body{
+        background-color: rgb(90, 39, 39);
+        color: black;
+    }
+}*/
 #titulo{
     display: flex;
     flex-direction: column;
