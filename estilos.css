@@ -83,6 +83,14 @@ ul{
     background-color: rgb(230, 159, 170);
     align-items: center;
 }
+a{
+    border: 10px solid white;
+    align-items: center;
+    background: wheat;
+    color: rgb(133, 119, 57);
+    width: 200px;
+    height: 30px;
+}
 
 #parrafito{
     display: flex;
