@@ -72,3 +72,15 @@ sr.reveal('#chingue', {
         z: 40,
     }
 });
+sr.reveal('#titulo2',{
+    duration:3060,
+    distance: '10px',
+})
+sr.reveal('#carta',{
+    duration: 6000,
+    distance: '-30px',
+})
+sr.reveal('#cositas',{
+    duration: 3000,
+    origin: 'left',
+})
