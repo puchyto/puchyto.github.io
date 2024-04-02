@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nanum+Pen+Script&display=swap')
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: "Nanum Pen Script", cursive;}
+
 :root{
     color-scheme: light dark;
 }
 body{
-    font-family: "Nanum Pen Script", cursive;
     background-color: light-dark(rgb(255, 205, 148), rgb(90, 39, 39));
     color: light-dark(rgb(206, 57, 52), black);
 }
