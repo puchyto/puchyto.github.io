@@ -78,6 +78,7 @@ sr.reveal('#titulo2',{
 })
 sr.reveal('#carta',{
     duration: 6000,
+    origin: 'left',
     distance: '-30px',
 })
 sr.reveal('#cositas',{
